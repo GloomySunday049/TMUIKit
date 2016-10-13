@@ -7,7 +7,7 @@
 //
 
 import XCTest
-@testable import TMUIKit
+import TMUIKit
 
 class TMUIKitTests: XCTestCase {
     

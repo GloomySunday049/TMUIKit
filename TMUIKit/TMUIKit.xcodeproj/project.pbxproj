@@ -7,10 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		ED0DCE181DAF8028007402E1 /* TMUIKit.h in Headers */ = {isa = PBXBuildFile; fileRef = EDA593D31DAF4994007634C0 /* TMUIKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		EDA593BD1DAF48F1007634C0 /* TMUIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EDA593B31DAF48F1007634C0 /* TMUIKit.framework */; };
 		EDA593C21DAF48F1007634C0 /* TMUIKitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDA593C11DAF48F1007634C0 /* TMUIKitTests.swift */; };
 		EDA593D41DAF4994007634C0 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = EDA593D21DAF4994007634C0 /* Info.plist */; };
-		EDA593D51DAF4994007634C0 /* TMUIKit.h in Headers */ = {isa = PBXBuildFile; fileRef = EDA593D31DAF4994007634C0 /* TMUIKit.h */; };
 		EDA593D71DAF49B6007634C0 /* TestObj.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDA593D61DAF49B6007634C0 /* TestObj.swift */; };
 /* End PBXBuildFile section */
 
@@ -97,7 +97,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EDA593D51DAF4994007634C0 /* TMUIKit.h in Headers */,
+				ED0DCE181DAF8028007402E1 /* TMUIKit.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -337,7 +337,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = TMUIKit/Info.plist;
+				INFOPLIST_FILE = Source/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -359,7 +359,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = TMUIKit/Info.plist;
+				INFOPLIST_FILE = Source/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
