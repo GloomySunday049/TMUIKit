@@ -159,6 +159,7 @@
 					EDA593BB1DAF48F1007634C0 = {
 						CreatedOnToolsVersion = 8.0;
 						DevelopmentTeam = FB2Y33TQXG;
+						LastSwiftMigration = 0800;
 						ProvisioningStyle = Automatic;
 					};
 				};
