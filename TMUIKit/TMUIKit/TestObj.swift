@@ -9,5 +9,5 @@
 import UIKit
 
 open class TestObj: NSObject {
-    public var name: String = "test"
+    open var name: String = "test"
 }
