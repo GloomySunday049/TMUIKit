@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		ED0DCE281DAF812A007402E1 /* TMUIKit.h in Headers */ = {isa = PBXBuildFile; fileRef = ED0DCE261DAF812A007402E1 /* TMUIKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		ED0DCE2F1DAF813A007402E1 /* TestObj.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED0DCE2E1DAF813A007402E1 /* TestObj.swift */; };
+		ED0DCE311DAF9EAE007402E1 /* AFError.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED0DCE301DAF9EAE007402E1 /* AFError.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -16,6 +17,7 @@
 		ED0DCE261DAF812A007402E1 /* TMUIKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TMUIKit.h; sourceTree = "<group>"; };
 		ED0DCE271DAF812A007402E1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		ED0DCE2E1DAF813A007402E1 /* TestObj.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestObj.swift; sourceTree = "<group>"; };
+		ED0DCE301DAF9EAE007402E1 /* AFError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AFError.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -50,6 +52,7 @@
 			children = (
 				ED0DCE261DAF812A007402E1 /* TMUIKit.h */,
 				ED0DCE271DAF812A007402E1 /* Info.plist */,
+				ED0DCE301DAF9EAE007402E1 /* AFError.swift */,
 				ED0DCE2E1DAF813A007402E1 /* TestObj.swift */,
 			);
 			path = TMUIKit;
@@ -137,6 +140,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				ED0DCE2F1DAF813A007402E1 /* TestObj.swift in Sources */,
+				ED0DCE311DAF9EAE007402E1 /* AFError.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
