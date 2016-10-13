@@ -8,6 +8,6 @@
 
 import Foundation
 
-open class TestObj: NSObject {
+class TestObj: NSObject {
     
 }
