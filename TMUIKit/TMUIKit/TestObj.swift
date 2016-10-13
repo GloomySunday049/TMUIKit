@@ -6,8 +6,8 @@
 //  Copyright © 2016年 Petsknow. All rights reserved.
 //
 
-import UIKit
+import Foundation
 
 open class TestObj: NSObject {
-    open var name: String = "test"
+    
 }
