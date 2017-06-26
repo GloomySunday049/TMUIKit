@@ -11,9 +11,6 @@ Pod::Spec.new do |s|
   s.libraries           = "sqlite3.0", "z", "c++"
 
  s.prepare_command     = <<-EOF
-  mkdir WeChatSDK1.7.7/libWeChatSDK.framework/Modules
-  touch WeChatSDK1.7.7/libWeChatSDK.framework/Modules/module.modulemap
-  cat <<-EOF > WeChatSDK1.7.7/libWeChatSDK.framework/Modules/module.modulemap
   framework module libWeChatSDK {
       header "WechatAuthSDK.h"
       header "WXApi.h"
